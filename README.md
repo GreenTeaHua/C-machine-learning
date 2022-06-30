@@ -71,3 +71,5 @@ gcc main.c read_csv.c k_fold.c evaluate.c rmse.c test_prediction.c -o run -lm
 
 ## vs201* 
 添加相应的头文件
+
+https://ffmpeg.xianwaizhiyin.net/base-compile/intro.html 
