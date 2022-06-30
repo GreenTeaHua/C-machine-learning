@@ -45,3 +45,25 @@ Github： https://github.com/Gao-Jianxiong-SDUWH/C-machine-learning
 知乎专栏：https://www.zhihu.com/column/c_1296572278004940800
 
 B站视频讲解：https://www.bilibili.com/video/BV1st4y1v72S/（未更新）
+
+
+
+# git-bash+gcc
+
+说明：
+
+-l参数 就是用来指定程序要链接的库，-l参数紧接着就是库名，那么库名跟真正的库文件名有什么关系呢？就拿数学库来说，他的库名是m，他的库文件名是libm.so，
+
+```bash
+# 编译
+gcc main.c read_csv.c k_fold.c evaluate.c rmse.c test_prediction.c -o run -lm
+# 运行
+./run.exe
+```
+
+# vs201* 命令行
+
+1. 打开vs201*的命令行，
+2. 到当前路径
+3. 命令：cl *.c -o main
+4. 运行：./main.exe
