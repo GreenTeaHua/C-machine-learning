@@ -47,8 +47,9 @@ Github： https://github.com/Gao-Jianxiong-SDUWH/C-machine-learning
 B站视频讲解：https://www.bilibili.com/video/BV1st4y1v72S/（未更新）
 
 
+# 运行说明
 
-# git-bash+gcc
+## git-bash+gcc
 
 说明：
 
@@ -61,9 +62,12 @@ gcc main.c read_csv.c k_fold.c evaluate.c rmse.c test_prediction.c -o run -lm
 ./run.exe
 ```
 
-# vs201* 命令行
+## vs201* 命令行
 
 1. 打开vs201*的命令行，
 2. 到当前路径
 3. 命令：cl *.c -o main
 4. 运行：./main.exe
+
+## vs201* 
+添加相应的头文件
